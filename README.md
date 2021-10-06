@@ -65,7 +65,7 @@ python manage.py migrate
       }
 ```
 
- GET:  http://localhost:8000/cartloop/conversations/<int:id>/
+ GET:  http://localhost:8000/cartloop/conversations/id/
  ```
   GET request in Postman. It uses the given id from the url's body.
 ```
@@ -80,7 +80,7 @@ python manage.py migrate
       }
 ```
 
- GET:  http://localhost:8000/cartloop/chats/<int:id>/
+ GET:  http://localhost:8000/cartloop/chats/id/
  ```
   GET request in Postman. It uses the given id from the url's body.
 ```
