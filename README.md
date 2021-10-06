@@ -45,7 +45,7 @@ python manage.py migrate
 ### Implementation
 ```
 7 Models according to given data structure - most of them are mapped with ForeignKeys
-2 ModelSerializer - used in creating both POST requests view methods: create_conversation and create_chat
+2 ModelSerializer - used in creating both POST requests: create_conversation and create_chat
 4 endpoints:(base url: http://localhost:8000/)
   - POST: cartloop/conversations/ - create a new conversation
   - GET:  cartloop/conversations/<int:id>/ - return the details of a conversation following the given JSON structure
